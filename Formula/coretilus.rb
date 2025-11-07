@@ -7,10 +7,10 @@ class Coretilus < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/titilambert/coretilus/releases/download/v0.0.2/coretilus-v0.0.2-macos_aarch64.tar.gz"
-      sha256 "19e4a0057fbb9715f690a4134320b40188ffeb2b5e4bb6f97a118e66e4696e64"
+      sha256 "ab037c9bd2b8ccdc62ad052970c3d92bda2ad22d13f10ab0f7e3c959c0d4f2b3"
     else
       url "https://github.com/titilambert/coretilus/releases/download/v0.0.2/coretilus-v0.0.2-macos_x86_64.tar.gz"
-      sha256 "c26235f67a357d904184a14d41d8d3fccace98123d0fc2356530260b0aee3e29"
+      sha256 "89b1316689e843022fd54dc087db26c8a08bac6ae616bce39b425ceca42dc620"
     end
   end
 
