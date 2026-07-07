@@ -1,16 +1,16 @@
 class Coretilus < Formula
   desc "A parody of GNU Coreutils - playful typo-triggered terminal tools"
   homepage "https://github.com/titilambert/coretilus"
-  version "0.6.0"
+  version "0.7.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/titilambert/coretilus/releases/download/v0.6.0/coretilus-v0.6.0-macos_aarch64.tar.gz"
-      sha256 "f85b712274390e080d988478983909b7ac6bc301324ad673d6b8da5f06c2bc7c"
+      url "https://github.com/titilambert/coretilus/releases/download/v0.7.0/coretilus-v0.7.0-macos_aarch64.tar.gz"
+      sha256 "3e11032f92588c6189b98ef71436e345e4860aaf78ac3c1d736998ed6025cc67"
     else
-      url "https://github.com/titilambert/coretilus/releases/download/v0.6.0/coretilus-v0.6.0-macos_x86_64.tar.gz"
-      sha256 "2e952af372133c4b1b34771e9d4c69e3cc747abc2ae1434016a9e2da48c88db2"
+      url "https://github.com/titilambert/coretilus/releases/download/v0.7.0/coretilus-v0.7.0-macos_x86_64.tar.gz"
+      sha256 "83af7e09dcb8f9746cb52e5687953c92a9eb60b5aece22e49326002e193c8a0a"
     end
   end
 
